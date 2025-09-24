@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>wanbossfashion - Toko Online Fashion Pria & Wanita</title>
+  <meta name="description" content="wanbossfashion menjual fashion pria dan wanita seperti jaket, tas, hoodie, dan pakaian premium. Belanja aman di Shopee, Tokopedia, TikTok Shop" />
+  <meta name="keywords" content="wanbossfashion, toko fashion, fashion pria, fashion wanita, jaket pria, tas selempang, hoodie wanita, pakaian online, fashion premium, toko resmi fashion" />
+  <meta name="author" content="wanbossfashion" />
+  <link rel="icon" href="logo.jpg" type="image/jpg" />
+  <link rel="canonical" href="https://wanbossfashion.com/" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "wanbossfashion",
+    "url": "https://wanbossfashion.com/",
+    "logo": "https://wanbossfashion.com/logo.jpg",
+    "description": "Toko Resmi wanbossfashion - Fashion Pria & Wanita",
+    "sameAs": [
+      "https://id.shp.ee/FeMSbEt",
+      "https://www.tiktok.com/@wanbossfashion?_t=ZS-8wXlyGZaVSp&_r=1",
+      "https://www.tokopedia.com/wanbossfashion/product?utm_source=salinlink&utm_medium=share&utm_campaign=Shop-164147500-7495542036102023204-Semua",
+    ]
+  }
+  </script>
+  <style>
+    * {margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif;}
+    :root {
+      --primary-color: #007bff;
+      --secondary-color: #6c757d;
+      --background-light: #f8f9fa;
+      --background-gradient-start: #e0f7fa;
+      --background-gradient-end: #f0f2f5;
+      --card-background: #ffffff;
+      --text-color-dark: #212529;
+      --text-color-medium: #495057;
+      --shadow-soft: 0 4px 15px rgba(0, 0, 0, 0.08);
+      --shadow-medium: 0 8px 20px rgba(0, 0, 0, 0.12);
+      --border-radius-card: 20px;
+      --border-radius-img: 16px;
+    }
+    body {
+      background: linear-gradient(135deg, var(--background-gradient-start), var(--background-gradient-end));
+      color: var(--text-color-medium);
+      padding: 20px;
+      overflow-x: hidden;
+      min-height: 100vh;
+    }
+    .container {max-width: 960px; margin: 0 auto; padding: 0 10px;}
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+      padding-top: 20px;
+      animation: fadeInDown 1s ease forwards;
+    }
+    header img {
+      max-width: 140px;
+      border-radius: 50%;
+      border: 4px solid var(--card-background);
+      box-shadow: var(--shadow-soft);
+      transition: transform 0.4s ease, box-shadow 0.4s ease, border-color 0.4s ease;
+    }
+    header img:hover {
+      transform: scale(1.08);
+      box-shadow: var(--shadow-medium);
+      border-color: var(--primary-color);
+    }
+    header h1 {
+      font-size: 2.4rem;
+      margin-top: 20px;
+      margin-bottom: 10px;
+      font-weight: 600;
+      color: var(--text-color-dark);
+      animation: fadeIn 1.2s ease forwards;
+    }
+    header p {
+      font-size: 1.1rem;
+      color: var(--text-color-medium);
+      margin-bottom: 40px;
+      animation: fadeIn 1.4s ease forwards;
+    }
+    .store-links {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 25px;
+      margin-bottom: 70px;
+      animation: fadeInUp 1s ease forwards;
+    }
+    .store-links a {
+      background: var(--card-background);
+      padding: 20px 15px;
+      border-radius: var(--border-radius-card);
+      box-shadow: var(--shadow-soft);
+      text-align: center;
+      text-decoration: none;
+      color: var(--text-color-medium);
+      width: 120px;
+      transition: all 0.3s ease;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      border: 1px solid transparent;
+    }
+    .store-links a:hover {
+      transform: translateY(-8px) scale(1.05);
+      box-shadow: var(--shadow-medium);
+      background: var(--background-light);
+      border-color: var(--primary-color);
+      color: var(--primary-color);
+    }
+    .store-links img {height: 45px; margin-bottom: 10px;}
+    .store-links span {font-weight: 500; font-size: 1rem;}
+    .products-section {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .products-section h2 {
+      font-size: 2rem;
+      margin-bottom: 40px;
+      color: var(--text-color-dark);
+      animation: fadeIn 1.3s ease forwards;
+    }
+    .product-gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 20px;
+      padding: 0;
+      animation: fadeInUp 1.2s ease forwards;
+    }
+    .product-gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: var(--border-radius-img);
+      box-shadow: var(--shadow-soft);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      display: block;
+    }
+    .product-gallery img:hover {
+      transform: scale(1.03);
+      box-shadow: var(--shadow-medium);
+    }
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: var(--secondary-color);
+    }
+    @media (max-width: 768px) {
+      .container {padding: 0 15px;}
+      header h1 {font-size: 1.8rem;}
+      header p {font-size: 1rem;}
+      .products-section h2 {font-size: 1.6rem; margin-bottom: 30px;}
+      .product-gallery {grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 15px;}
+    }
+    @media (max-width: 480px) {
+      body {padding: 15px;}
+      .container {padding: 0;}
+      header img {max-width: 110px;}
+      header h1 {font-size: 1.6rem; margin-top: 15px;}
+      header p {font-size: 0.9rem; margin-bottom: 30px;}
+      .store-links {gap: 15px; margin-bottom: 50px;}
+      .store-links a {padding: 15px 10px; width: 100px; border-radius: 15px;}
+      .store-links img {height: 40px; margin-bottom: 8px;}
+      .store-links span {font-size: 0.9rem;}
+      .products-section h2 {font-size: 1.4rem; margin-bottom: 25px;}
+      .product-gallery {grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 10px; padding: 0 5px;}
+      .product-gallery img {border-radius: 12px;}
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(40px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes fadeInDown {
+      from { opacity: 0; transform: translateY(-30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <img src="logo.jpg" alt="Logo wanbossfashion" />
+      <h1>Toko Fashion Pria & Wanita wanbossfashion - Jaket, Hoodie & Aksesoris</h1>
+      <p>wanbossfashion menyediakan koleksi lengkap fashion pria dan wanita, mulai dari jaket, hoodie, tas selempang, hingga aksesoris kekinian. Tersedia di Shopee, Tokopedia, TikTok Shop, dan Lazada. Belanja mudah & terpercaya langsung dari toko resmi kami.</p>
+    </header>
+
+    <section class="store-links">
+      <h2 style="font-size: 1.5rem; margin-bottom: 20px; width: 100%; text-align: center; color: var(--text-color-dark);">Kunjungi Toko Resmi Kami:</h2>
+      <a href="https://id.shp.ee/FeMSbEt" title="Shopee Official Store" target="_blank"><img src="shopee-icon.png" alt="Shopee wanbossfashion" /><span>Shopee</span></a>
+      <a href="https://www.tiktok.com/@wanbossfashion?_t=ZS-8wXlyGZaVSp&_r=1" title="TikTok Shop Resmi" target="_blank"><img src="tiktok-icon.png" alt="TikTok Shop wanbossfashion" /><span>TikTok</span></a>
+      <a href="https://www.tokopedia.com/wanbossfashion/product?utm_source=salinlink&utm_medium=share&utm_campaign=Shop-164147500-7495542036102023204-Semua" title="Tokopedia Official Store" target="_blank"><img src="tokopedia-icon.png" alt="Tokopedia wanbossfashion" /><span>Tokopedia</span></a>
+      <a href="#" title="Lazada Official Store" target="_blank"><img src="lazada-icon.png" alt="Lazada wanbossfashion" /><span>Lazada</span></a>
+      <a href="https://wa.me/085869480537?text=Halo%20wanbossfashion%2C%20saya%20tertarik%20dengan%20produk%20Anda." title="Hubungi via WhatsApp" target="_blank"><img src="whatsapp-icon.svg" alt="WhatsApp wanbossfashion" /><span>WhatsApp</span></a>
+    </section>
+
+    <section class="products-section" id="produk">
+      <h2>Produk Unggulan Kami</h2>
+      <div class="product-gallery">
+        <img src="produk_1.jpg" alt="Jaket Bomber Pria Hitam NZL" />
+        <img src="produk_2.jpg" alt="Tas Selempang Unisex NZL Urban Style" />
+        <img src="produk_3.jpg" alt="Kemeja Flanel Pria NZL Lengan Panjang" />
+        <img src="produk_4.jpg" alt="Celana Chino Cream NZL Pria" />
+        <img src="produk_5.jpg" alt="Hoodie Wanita NZL Logo Bordir" />
+        <img src="produk_6.jpg" alt="Sweater Pria NZL Motif Garis" />
+        <img src="produk_7.jpg" alt="Kaos Polos Cotton Combed NZL" />
+        <img src="produk_8.jpg" alt="Jaket Parka NZL Banyak Saku" />
+        <img src="produk_9.jpg" alt="Topi Baseball NZL Logo Klasik" />
+        <img src="produk_10.jpg" alt="none" />
+        <img src="produk_11.jpg" alt="none" />
+        <img src="produk_12.jpg" alt="none" />
+        <img src="produk_13.jpg" alt="none" />
+        <img src="produk_14.jpg" alt="none" />
+        <img src="produk_15.jpg" alt="none" />
+        <img src="produk_16.jpg" alt="none" />
+        <img src="produk_17.jpg" alt="none" />
+        <img src="produk_18.jpg" alt="none" />
+        <img src="produk_19.jpg" alt="none" />
+        <img src="produk_20.jpg" alt="none" />
+        <img src="produk_21.jpg" alt="none" />
+        <img src="produk_22.jpg" alt="none" />
+        <img src="produk_23.jpg" alt="none" />
+        <img src="produk_24.jpg" alt="none" />
+      </div>
+      <p style="margin-top: 30px; font-size: 1.1rem;"><a href="#produk" style="text-decoration: none; color: var(--primary-color); font-weight: 500;">Lihat Semua Produk Kami →</a></p>
+    </section>
+    <section style="margin-top: 60px;">
+      <h2 style="text-align: center; font-size: 1.6rem; color: var(--text-color-dark);">Kenapa Belanja di wanbossfashion?</h2>
+      <p style="margin: 20px auto; max-width: 800px; font-size: 1rem; text-align: justify;">
+      wanbossfashion adalah <strong>toko resmi fashion pria dan wanita</strong> yang menghadirkan produk berkualitas tinggi dan desain terkini. Kami menyediakan berbagai pilihan <strong>jaket pria</strong>, <strong>hoodie wanita</strong>, <strong>tas selempang</strong>, <strong>pakaian trendy</strong>, hingga aksesoris yang cocok untuk segala aktivitas harian. 
+        <br /><br />
+      wanbossfashion juga memberikan <strong>jaminan produk asli</strong> dan layanan pengembalian jika produk tidak sesuai. Anda bisa belanja tanpa khawatir dengan berbagai metode pembayaran dan pengiriman cepat ke seluruh Indonesia.
+        <br><br />
+      Kami memahami pentingnya gaya dan kenyamanan, oleh karena itu setiap produk kami dipilih dan diproduksi dengan material terbaik. Belanja di wanbossfashion memberikan Anda jaminan kualitas dan harga yang kompetitif. Toko kami hadir secara resmi di berbagai platform online terpercaya seperti <strong>Shopee, Tokopedia, TikTok Shop</strong>, dan <strong>Lazada</strong>.
+        <br /><br />
+      Dengan pelayanan pelanggan yang responsif dan pengiriman cepat, pengalaman belanja Anda menjadi lebih mudah dan menyenangkan. Tidak hanya sekadar fashion, kami juga membawa semangat lokal yang mendukung produk Indonesia yang bisa bersaing di pasar global. Kunjungi toko kami hari ini dan temukan gaya terbaik Anda bersama wanbossfashion.
+      </p>
+    </section>
+
+    <footer>
+      © 2025 wanbossfashion. All rights reserved.
+    </footer>
+  </div>
+
+</body>
+</html>
